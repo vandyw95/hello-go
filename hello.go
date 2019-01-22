@@ -1,16 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func Reverse(s string) string {
-  r := []rune(s)
-  for i, j := 0, len(r)-1; i < len(r)/2; i, j = i+1, j-1 {
-    r[i], r[j] = r[j], r[i]
-  }
-  return string(r)
-}
+	"github.com/hello-go/utils"
+)
 
 func main() {
-  fmt.Printf("lalala")
-  fmt.Printf(Reverse("hello, world\n"))
+	fmt.Println(utils.Reverse("hello, world\n"))
 }
