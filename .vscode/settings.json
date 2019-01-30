@@ -1,0 +1,7 @@
+{
+    "editor.wordWrap": "on",
+    "editor.fontSize": 10,
+    "editor.formatOnSave": true,
+    "go.buildOnSave": "workspace",
+    "go.lintOnSave": "file"
+}
